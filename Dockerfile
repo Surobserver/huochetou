@@ -1,4 +1,4 @@
-FROM debian
+FROM centos
 RUN apt update
 RUN apt install ssh wget npm -y
 RUN  npm install -g wstunnel
